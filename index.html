@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .CONTEINER-PRODUTOS-LP {
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 40px 10px 40px 10px;
+        }
+        .imgProduto {
+            width: 100px;
+            border-radius: 10px;
+        }
+        .produtos {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .nomeProduto {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .valor {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <picture>
+            <img class="imgLogo" src="Imagens/Logo Leo Projects Preto.JPG" alt="Logo Leo Projects">
+        </picture>
+    </header>
+    <main>
+        <ul class="CONTEINER-PRODUTOS-LP">
+            <li class="produtos" id="CAP-LP-MARROM">
+                <img class="imgProduto" src="Imagens/Cap LP Marrom.JPG" alt="Boné LP Marrom com Branco">
+                <p class="nomeProduto">Boné "LP" Marrom com Branco</p>
+                <p class="valor">R$100,00</p>
+            </li>
+            <li class="produtos" id="CAP-LP-AZUL">
+                <img class="imgProduto" src="Imagens/Cap LP Azul.JPG" alt="Boné LP Azul com Preto">
+                <p class="nomeProduto">Boné "LP" Azul com Preto</p>
+                <p class="valor">R$100,00</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <div class="institucional">
+            <h2>Institucional</h2>
+            <a class="linksFooter" href="">Leo Projects</a>
+        </div>
+        <div class="contato">
+            <h2>Contato</h2>
+            <a class="linksFooter" href="">Telefone: (13) 99999-9832</a>
+            <a class="linksFooter" href="">E-mail: leoprojects@gmail.com</a>
+        </div>
+        <div class="social">
+            <h2>Social</h2>
+            <a class="linksFooter" target="_blank" href="https://www.instagram.com/leo_projects/">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

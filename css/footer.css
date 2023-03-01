@@ -1,0 +1,21 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+.linksFooter {
+    color: #B4C8CC;
+    text-decoration: none;
+}
+.linksFooter:hover {
+    font-weight: bold;
+}
