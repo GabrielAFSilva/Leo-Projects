@@ -1,8 +1,17 @@
 header {
     background-color: #000;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
 }
 .imgLogo {
-    width: 100px;
+    width: 70px;
+}
+.linksHeader {
+    width: 0;;
+}
+.bi-person {
+    color: #fff;
+    font-size: 40px;
 }
