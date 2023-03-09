@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="../imagens/Logo Leo Projects Preto.JPG" />
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <title>Home</title>
@@ -16,22 +17,44 @@
         }
 
         body {
-            margin: 0;
+            margin: 0px;
             box-sizing: border-box;
             font-size: var(--font-size-small);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 0px 3px 5px #9e9d9d;
         }
 
         .CONTEINER-PRODUTOS-LP {
             display: flex;
             justify-content: space-around;
             padding: 0;
-            margin: 40px 10px 40px 10px;
+            margin: -10px 10px 40px 10px;
             flex-wrap: wrap;
         }
 
+        .linkProdutos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35%;
+            margin: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .linkProdutos:hover {
+            border: 1px;
+            border-radius: 4px;
+            box-shadow: 0px 0px 5px;
+            transition: all 0.1s linear;
+        }
+
         .imgProduto {
-            width: 100px;
+            width: 90%;
             border-radius: 10px;
         }
 
@@ -41,68 +64,90 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 10px;
+            margin-top: 10px;
+            ;
             margin-left: 10px;
             margin-right: 10px;
-            width: 40%;
         }
 
         .nomeProduto {
             text-align: center;
             margin-bottom: 0px;
+            height: 60px;
         }
 
         .valor {
             font-size: var(--font-size-valor, 1.1rem);
             text-align: center;
-            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <a class="linksHeader" href="/index.html"><img class="imgLogo" src="../Imagens/Logo Leo Projects Preto.JPG"
+        <a class="linksHeader" href="index.html"><img class="imgLogo" src="imagens/Logo Leo Projects Preto.JPG"
                 alt="Logo Leo Projects">
         </a>
         <a class="linksHeader" href="/paginas/login.html"><i class="bi bi-person"></i></a>
-
     </header>
     <main>
+        <h1>Produtos</h1>
         <ul class="CONTEINER-PRODUTOS-LP">
-            <li class="produtos" id="CAP-LP-MARROM">
-                <img class="imgProduto" src="Imagens/Cap LP Marrom.JPG" alt="Boné LP Marrom com Branco">
-                <p class="nomeProduto">Boné "LP" Marrom com Branco</p>
-                <p class="valor">R$100,00</p>
-            </li>
-            <li class="produtos" id="CAP-LP-AZUL">
-                <img class="imgProduto" src="Imagens/Cap LP Azul.JPG" alt="Boné LP Azul com Preto">
-                <p class="nomeProduto">Boné "LP" Azul com Preto</p>
-                <p class="valor">R$100,00</p>
-            </li>
-            <li class="produtos" id="CAP-LP-MARROM">
-                <img class="imgProduto" src="Imagens/Cap LP Marrom.JPG" alt="Boné LP Marrom com Branco">
-                <p class="nomeProduto">Boné "LP" Marrom com Branco</p>
-                <p class="valor">R$100,00</p>
-            </li>
-            <li class="produtos" id="CAP-LP-AZUL">
-                <img class="imgProduto" src="Imagens/Cap LP Azul.JPG" alt="Boné LP Azul com Preto">
-                <p class="nomeProduto">Boné "LP" Azul com Preto</p>
-                <p class="valor">R$100,00</p>
-            </li>
+            <a class="linkProdutos" href="">
+                <li class="produtos" id="CAP-LP-MARROM">
+                    <img class="imgProduto" src="Imagens/Cap LP Marrom.JPG" alt="Boné LP Marrom com Branco">
+                    <p class="nomeProduto">Boné "LP" Marrom com Branco</p>
+                    <p class="valor"><strong>R$100,00</strong></p>
+                </li>
+            </a>
 
+            <a class="linkProdutos" href="">
+                <li class="produtos" id="CAP-LP-AZUL">
+                    <img class="imgProduto" src="Imagens/Cap LP Azul.JPG" alt="Boné LP Azul com Preto">
+                    <p class="nomeProduto">Boné "LP" Azul com Preto</p>
+                    <p class="valor"><strong>R$100,00</strong></p>
+                </li>
+            </a>
+            <a class="linkProdutos" href="">
+                <li class="produtos" id="CAP-LP-MARROM">
+                    <img class="imgProduto" src="Imagens/Cap LP Marrom.JPG" alt="Boné LP Marrom com Branco">
+                    <p class="nomeProduto">Boné "LP" Marrom com Branco</p>
+                    <p class="valor"><strong>R$100,00</strong></p>
+                </li>
+            </a>
+            <a class="linkProdutos" href="">
+                <li class="produtos" id="CAP-LP-AZUL">
+                    <img class="imgProduto" src="Imagens/Cap LP Azul.JPG" alt="Boné LP Azul com Preto">
+                    <p class="nomeProduto">Boné "LP" Azul com Preto</p>
+                    <p class="valor"><strong>R$100,00</strong></p>
+                </li>
+            </a>
+            <a class="linkProdutos" href="">
+                <li class="produtos" id="CAP-LP-MARROM">
+                    <img class="imgProduto" src="Imagens/Cap LP Marrom.JPG" alt="Boné LP Marrom com Branco">
+                    <p class="nomeProduto">Boné "LP" Marrom com Branco</p>
+                    <p class="valor"><strong>R$100,00</strong></p>
+                </li>
+            </a>
+            <a class="linkProdutos" href="">
+                <li class="produtos" id="CAP-LP-AZUL">
+                    <img class="imgProduto" src="Imagens/Cap LP Azul.JPG" alt="Boné LP Azul com Preto">
+                    <p class="nomeProduto">Boné "LP" Azul com Preto</p>
+                    <p class="valor"><strong>R$100,00</strong></p>
+                </li>
+            </a>
         </ul>
     </main>
     <footer>
         <div class="institucional">
             <h2>Institucional</h2>
-            <a class="linksFooter" href="../paginas/sobre.html">Leo Projects</a>
+            <a class="linksFooter" href="paginas/sobre.html">Leo Projects</a>
         </div>
-        <div class="contato">
+        <address class="contato">
             <h2>Contato</h2>
-            <a class="linksFooter" href="tel:+5513999999832">Telefone: (13) 99999-9832</a>
-            <a class="linksFooter" href="mailto:leoprojects@gmail.com">E-mail: leoprojects@gmail.com</a>
-        </div>
+                <a class="linksFooter" href="tel:+5513999999832">Telefone: (13) 99999-9832</a>
+                <a class="linksFooter" href="mailto:leoprojects@gmail.com">E-mail: leoprojects@gmail.com</a>
+        </address>
         <div class="social">
             <h2>Social</h2>
             <a class="linksFooter" target="_blank" href="https://www.instagram.com/leo_projects/">Instagram</a>

@@ -11,6 +11,7 @@ footer {
 .contato {
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 .linksFooter {
     color: #B4C8CC;
